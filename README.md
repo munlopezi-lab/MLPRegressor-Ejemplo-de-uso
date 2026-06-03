@@ -1,2 +1,5 @@
-# MLPRegressor-Ejemplo-de-uso
-El código ejemplifica el uso de regresión lineal múltiple y la comparación de la exactitud al usar cuatro funciones de activación distintas ['relu', 'logistic', 'tanh', 'identity']
+Para este proyecto se utilizó una base de datos disponible en kaggle.
+
+https://www.kaggle.com/datasets/mosapabdelghany/medical-insurance-cost-dataset
+
+puedes descargar esta base de datos y guardarla en la misma carpeta donde se aloja tu proyecto como "insurance.csv"
