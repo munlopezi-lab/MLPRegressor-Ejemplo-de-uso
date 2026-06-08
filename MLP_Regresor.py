@@ -43,7 +43,7 @@ plt.figure(figsize=(10, 50))     # preparamos una figura para graficar los resul
 for f in activaciones:
     # Definir el modelo con la función actual
     mlp = MLPRegressor(
-        hidden_layer_sizes=(100, 6),  # Capas ocultas con 128, 64 y 32 neuronas
+        hidden_layer_sizes=(100, 6),  # Dos capas ocultas con 100 y 6 neuronas
         activation=f,
         random_state=42,
         max_iter=10000,
